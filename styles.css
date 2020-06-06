@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 body {
   background: #f0f0f0;
   margin: 0;
@@ -278,9 +285,15 @@ td b {
   padding-left: 6px;
 }
 .topflex{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .topflex h2{
   margin-bottom: 0;
@@ -294,6 +307,6 @@ td b {
   padding-top: 7px;
   
 }
-.section-education .item {
-  margin-bottom: 5px;
+.section-references .item {
+  /* margin-bottom: 9px; */
 }
