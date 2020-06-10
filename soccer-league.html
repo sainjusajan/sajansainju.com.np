@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        font: 16px Arial, sans-serif;
+        color: #505050;
+        max-width: 700px;
+        margin: 0 auto;
+      }
+      #container {
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+      header {
+        padding: 50px 0;
+        border-bottom: 1px solid #ddd;
+      }
+      h1.sitename {
+        color: #2b2b2b;
+      }
+      nav {
+        text-align: right;
+      }
+      nav a {
+        color: #97a1aa;
+        text-decoration: none;
+        margin-left: 20px;
+      }
+      section {
+        padding: 50px 0;
+      }
+      article {
+        font: 400 18px "Lora", Georgia, serif;
+        line-height: 2;
+        color: #505050;
+      }
+      article h2 {
+        color: #2b2b2b;
+        font: 40px "Droid Sans", sans-serif;
+      }
+      article p {
+        padding-bottom: 25px;
+      }
+      article img {
+        max-width: 100%;
+      }
+      @media (max-width: 300px) {
+        nav {
+          text-align: left;
+        }
+      }
+      .flex {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .flex img {
+        flex: 0 1 48%;
+        flex-shrink: 1;
+        max-width: 300px;
+      }
+      .moderator {
+        text-align: center;
+      }
+      .moderator img {
+        margin: 0 auto;
+        margin-top: 40px;
+        max-width: 385px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <!-- <header>
+        <h1 class="sitename">Project Demo</h1>
+      </header> -->
+      <section>
+        <article>
+          <h2>Soccer League</h2>
+          <time>05 Jun 2020</time>
+          <p>
+            MySoccerLeague is a full-fledged online Soccer League Management App
+            that lets the fans feel live-like experiences from the comfort of
+            their home.
+          </p>
+
+          <h2>Features:</h2>
+          <ul>
+            <li>
+              It’s a Progressive Web App, means as a fan, you can get realtime
+              notifications during important events of the match (eg: GOAL, RED
+              CARD, YELLOW CARD, OFFSIDE, etc.)
+            </li>
+            <li>
+              As a Moderator(organizer), you get to add as many matches as you
+              want, send out the notifications to the fans. Yes, you can even
+              send out commentary snippets.
+            </li>
+          </ul>
+
+          <div class="flex">
+            <img src="assets/live-match.png" alt="" />
+            <img src="assets/home-screen.png" alt="" />
+          </div>
+          <div class="moderator">
+            <img src="assets/mde.png" alt="" />
+          </div>
+          <p>
+            So, if you are looking for an affordable app to make an online
+            presence for your Soccer League, MySoccerLeague is what you will
+            ever need.
+          </p>
+          <h2>Demo:</h2>
+          <ul>
+            <li>
+              User Faced:
+              <a target="_blank" href="https:/league-demo.ml"> https://league-demo.ml</a>
+            </li>
+            <li>
+              Admin Faced:
+              <a target="_blank" href="https:/league-demo.ml/admin">
+                https://league-demo.ml/admin</a
+              >
+            </li>
+          </ul>
+        </article>
+      </section>
+    </div>
+  </body>
+</html>
